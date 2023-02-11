@@ -1,0 +1,70 @@
+[Toplevel bottom]
+enable-buttons=false
+size=28
+screen=0
+monitor=0
+expand=true
+orientation=bottom
+
+[Object notification-area]
+panel-right-stick=false
+position=1128
+relative-to-edge=start
+applet-iid=NotificationAreaAppletFactory::NotificationArea
+locked=true
+toplevel-id=bottom
+object-type=applet
+
+[Object clock]
+panel-right-stick=false
+position=1195
+relative-to-edge=start
+applet-iid=ClockAppletFactory::ClockApplet
+locked=true
+toplevel-id=bottom
+object-type=applet
+
+[Object show-desktop]
+panel-right-stick=false
+position=0
+relative-to-edge=end
+applet-iid=WnckletFactory::ShowDesktopApplet
+locked=true
+toplevel-id=bottom
+object-type=applet
+
+[Object object-2]
+panel-right-stick=false
+position=75
+relative-to-edge=start
+applet-iid=DockAppletFactory::DockApplet
+locked=true
+toplevel-id=bottom
+object-type=applet
+
+[Object object-3]
+panel-right-stick=false
+position=685
+relative-to-edge=start
+applet-iid=MateXAppStatusAppletFactory::MateXAppStatusApplet
+locked=false
+toplevel-id=bottom
+object-type=applet
+
+[Object object-1]
+panel-right-stick=false
+position=0
+relative-to-edge=start
+applet-iid=MateMenuAppletFactory::MateMenuApplet
+locked=true
+toplevel-id=bottom
+object-type=applet
+
+[Customsetting maximusdecoration]
+mate-maximus-undecorate=False
+mate-maximus-recorded=True
+
+[Customsetting windowcontrollayout]
+mate-general=menu:minimize,maximize,close
+mate-interface=menu:minimize,maximize,close
+gnome-wm-preferences=appmenu:minimize,maximize,close
